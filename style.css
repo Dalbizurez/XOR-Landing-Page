@@ -3,3 +3,33 @@ body{
     color: #40E6D5;
     font-family: 'Lato', sans-serif;
 }
+
+.gallery {
+    display: flex;
+    width: 100%;
+    padding: 2% 0%;
+    box-sizing: border-box;
+    height: 70vh;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .7s;
+    margin:0 2%;
+    box-shadow: 0 20px 30px rgba(96, 206, 175, 0.54);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .box:hover { flex: 60%; }
+  .box:hover > img {
+    object-fit: scale-down; 
+  }
+
+   
