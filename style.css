@@ -28,7 +28,7 @@ body {
     height: 70vh;
 }
 
-.gallery.box {
+.gallery .box {
     flex: 1;
     overflow: hidden;
     transition: .7s;
@@ -37,16 +37,16 @@ body {
     line-height: 0;
 }
 
-.gallery.box>img {
+.gallery .box>img {
     width: 200%;
     height: 100%;
     object-fit: cover;
 }
 
-.gallery.box:hover {
+.gallery .box:hover {
     flex: 60%;
 }
-.gallery.box:hover>img {
+.gallery .box:hover>img {
     object-fit: scale-down;
 }
 
