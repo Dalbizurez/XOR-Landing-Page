@@ -70,3 +70,8 @@ html{
     scroll-padding-top: 6rem;
     overflow-x: hidden;
 }
+body{
+    background-color: #0C232B;
+    color: #40E6D5;
+    font-family: 'Lato', sans-serif;
+}
