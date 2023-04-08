@@ -46,3 +46,6 @@ body{
   .stats{
     margin: 4% 2% 0%;
   }
+.redes img{
+    max-width: 125px;
+} 
